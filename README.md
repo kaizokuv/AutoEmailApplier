@@ -1,7 +1,7 @@
 # AutoEmailApplier
 Tired of constantly sending the same emails to different companies to apply for them? Seeing how they use automation to filter us, I say we do the same with this, The AutoEmailApplier, just save a template into the source code, and fill up the blanks in the form and send. You can also attach pdfs such as your resume or cover letter, or both :D
 
-The main idea of this is simple, we make a script in Python that helps us automate the tediousness of constantly rewriting the same thing over and over and over again for different companies. This ReadMe will be split into afew sections, how the code works, screenshots and how to change stuff so you can add and remove stuff.
+The main idea of this is simple, we make a script in Python that helps us automate the tediousness of constantly rewriting the same thing over and over and over again for different companies. This ReadMe will include how the code works, screenshots and how to change stuff so you can add and remove stuff. If there's anything you need help with don't feel shy to reach out to me via my email and I'll help best i can.
 
 # How the code works
 First up is the template. The code has the template I personally use to reach out to companies and get a conversation going between me and the company.
@@ -34,3 +34,29 @@ Next up is the attachments. This is where you can edit the attachments such as p
 ![image](https://github.com/user-attachments/assets/4ee6ef27-fab4-43eb-94e5-2fffe6dc2873)
 
 If there is something wrong with one of the files the program will automatically skip them.
+
+Next is the connection to the Gmail services, this is so that the program can have the ability to send emails on behalf of the clients Gmail. So far this program is for Gmail users only, but I will update it soon to include all gmails, including cooperate email domains.
+
+![image](https://github.com/user-attachments/assets/7e5877cf-5176-47b8-9c9c-94afba5c8c5b)
+
+Going forward will be the explainations for the GUI. First up is the data collection for variables such as the user's gmail, company email address, so on so forth. By default the program comes with these fields to fill:
+- Your Gmail Address
+- Your Gmail App Password
+- Your Name
+- Your Course
+- Your University Name
+- Your Phone Number
+- Company Name
+- Company Email Address
+
+![image](https://github.com/user-attachments/assets/59216a7e-7442-4843-a2f7-9c79420373e6)
+
+Below is the window design. Using a loop to design the frame as well as the boxes to hold the title. In addition anything that gets typed into the Password box will be replaced with an astrisk (*) for the sake of user privacy. The full build can be seen below.
+
+![image](https://github.com/user-attachments/assets/bf279193-5420-40c1-bccd-7b561d44688a)
+
+Finally is the links near the submission button. For now it has two, for those who need help with App Passwords (it's a hassle I know but for security reasons it's needed). If you need to add more, make sure the names for the "_label" and "_link" are different. This way it won't get overlapped with any of the old links.
+
+![image](https://github.com/user-attachments/assets/ed324845-be69-44ab-9ec7-10311139e3b0)
+
+Enjoy my little program :D
